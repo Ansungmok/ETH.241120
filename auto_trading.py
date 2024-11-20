@@ -3,8 +3,8 @@ import time
 from datetime import datetime
 
 # Upbit API 키 설정 (개인 API 키 입력)
-ACCESS_KEY = "uKpCOPJ910TPxLxAj0CxnxPdZqJhMFX0Hkhu1Nit"
-SECRET_KEY = "rxSnFDxeSX96Y1x2N4G59JxNH1AY2Ncw37bx8xxP"
+ACCESS_KEY = "ACCESS_KEY"
+SECRET_KEY = "SECRET_KEY"
 
 # Upbit 객체 생성
 upbit = pyupbit.Upbit(ACCESS_KEY, SECRET_KEY)
